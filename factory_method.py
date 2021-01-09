@@ -60,9 +60,11 @@ def create_pizza(pizza_type : PizzaType) -> Pizza:
     }
     return factory_dict[pizza_type]()
 
-
+'''
 if __name__ == "__main__":
     for pizza in PizzaType:
         my_pizza = create_pizza(pizza)
         print(f'Pizza: {pizza.name}, Price: {my_pizza.get_price()}')
+'''
+
 

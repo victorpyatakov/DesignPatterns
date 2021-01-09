@@ -17,9 +17,10 @@ class Daughter(Father):
         # super() - позволяет обращаться к методам родителя без указания его имени
         super().__init__(name, lastname)
 
-
-if __name__ == "__main__":
+'''
+if __name__ == "__main__git":
     father = Father("Jon", "Week")
     son = Son("Jack", "Week")
     daughter = Daughter("Linda", "Week")
     father.print_name()
+'''
