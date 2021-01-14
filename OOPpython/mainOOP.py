@@ -9,4 +9,8 @@ if __name__ == "__main__":
     car = Car()
     print(car.speed)
     print(car.name)
-    car_1 = Car("fgjdjgi", 444)
+    car.name = "lada"
+    car.speed = "20"
+    print(car.speed)
+    print(car.name)
+    print(car)
